@@ -1,11 +1,13 @@
 .center {
+	position: relative;
 	margin: 0 auto;
 	width: 50%;
 	font-family: "Alegreya Sans";
 	padding: 25px 0;
+	z-index: 9;
 }
 
-.logo {
+.nopad {
 	padding: 0px;
 }
 
@@ -15,30 +17,58 @@
 }
 
 .projects {
-
+	background-color: #FCEFB6;
 }
 
-.design {
-
+.logo {
+	position: relative;
+	overflow: hidden;
+	background-color: #536E80;
+	color: white;
+	z-index: 0;
 }
 
-.design-bg {
+.logo-bg {
 	position: absolute;
-	z-index: 10;
-	
-	background-image: url("sf.jpg");
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	margin: -50px; /* get the overflow hidden working */
+	padding: 50px;
 
-	-webkit-filter: blur(25px);
-	-moz-filter: blur(25px);
-	-o-filter: blur(25px);
-	-ms-filter: blur(25px);
+	background-image: url("sf.jpg");
+	background-size: 100%;
+
 	filter: blur(25px);
+		-webkit-filter: blur(25px);
+		-moz-filter: blur(25px);
+		-o-filter: blur(25px);
+		-ms-filter: blur(25px);
+}
+
+.fade {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+
+	z-index: 2; /* on top of bg */
+	background-color: #FFF;
+	opacity: 0.4;
+	filter: alpha(opacity=40); /* ie8 */
+}
+
+.contact {
+
 }
 
 .navlink {
 	font-family: "Oswald", sans-serif;
 	text-decoration: none;
-	color: #000000;
+	color: #555555;
 	font-size: 24px;
 }
 
@@ -68,6 +98,7 @@ p {
 
 	/* border-bottom: 10px solid #F7922D; */
 	margin-top: -10px;
+	z-index: 10;
 }
 
 .orange {
@@ -78,6 +109,14 @@ p {
 	border-bottom: 10px solid #FFF;
 }
 
+.sheebo {
+	border-bottom: 10px solid #FCEFB6;
+}
+
+.navy {
+	border-bottom: 10px solid #536E80;
+}
+
 .circle {
 	border: 8px solid #000;
 	border-radius: 50%;
@@ -86,6 +125,10 @@ p {
 	text-align: center;
 	line-height: 60px; /* same as height to vert center */
 	font-size: 32px;
+}
+
+.cwhite {
+	border: 8px solid #FFF;
 }
 
 .left {
