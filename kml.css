@@ -1,0 +1,107 @@
+.center {
+	margin: 0 auto;
+	width: 50%;
+	font-family: "Alegreya Sans";
+	padding: 25px 0;
+}
+
+.logo {
+	padding: 0px;
+}
+
+.about {
+	background: #F7922D;
+	color: #FFF;
+}
+
+.projects {
+
+}
+
+.design {
+
+}
+
+.design-bg {
+	position: absolute;
+	z-index: 10;
+	
+	background-image: url("sf.jpg");
+
+	-webkit-filter: blur(25px);
+	-moz-filter: blur(25px);
+	-o-filter: blur(25px);
+	-ms-filter: blur(25px);
+	filter: blur(25px);
+}
+
+.navlink {
+	font-family: "Oswald", sans-serif;
+	text-decoration: none;
+	color: #000000;
+	font-size: 24px;
+}
+
+.nav {
+	text-align: center;
+	width: 100%;
+}
+
+h1 {
+	font-size: 72px;
+	margin: 0;
+}
+
+h2 {
+	margin: 0;
+}
+
+p {
+	margin-top: 0;
+}
+
+.arrow-up {
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+
+	/* border-bottom: 10px solid #F7922D; */
+	margin-top: -10px;
+}
+
+.orange {
+	border-bottom: 10px solid #F7922D;
+}
+
+.white {
+	border-bottom: 10px solid #FFF;
+}
+
+.circle {
+	border: 8px solid #000;
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	text-align: center;
+	line-height: 60px; /* same as height to vert center */
+	font-size: 32px;
+}
+
+.left {
+	float:left;
+	margin-right: 10px;
+}
+
+.right {
+	float:right;
+	margin-left: 10px;
+}
+
+.tright {
+	text-align: right;
+}
+
+body {
+	margin: 0;
+}
