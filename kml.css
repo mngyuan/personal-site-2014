@@ -61,6 +61,10 @@
 	filter: alpha(opacity=40); /* ie8 */
 }
 
+.design {
+	background-color: #536E80;
+}
+
 .contact {
 
 }
@@ -91,6 +95,7 @@ p {
 }
 
 .arrow-up {
+	position: relative;
 	width: 0;
 	height: 0;
 	border-left: 10px solid transparent;
@@ -125,6 +130,13 @@ p {
 	text-align: center;
 	line-height: 60px; /* same as height to vert center */
 	font-size: 32px;
+
+	user-select: none;
+		-webkit-touch-callout: none;
+		-webkit-user-select: none;
+		-khtml-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
 }
 
 .cwhite {
