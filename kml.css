@@ -17,7 +17,7 @@
 }
 
 .projects {
-	background-color: #FCEFB6;
+	background-color: #f0dd71;
 }
 
 .logo {
@@ -41,11 +41,11 @@
 	background-image: url("sf.jpg");
 	background-size: 100%;
 
-	filter: blur(25px);
-		-webkit-filter: blur(25px);
-		-moz-filter: blur(25px);
-		-o-filter: blur(25px);
-		-ms-filter: blur(25px);
+	filter: blur(15px);
+		-webkit-filter: blur(15px);
+		-moz-filter: blur(15px);
+		-o-filter: blur(15px);
+		-ms-filter: blur(15px);
 }
 
 .fade {
@@ -62,11 +62,13 @@
 }
 
 .design {
-	background-color: #536E80;
+	background-color: #bd5259;
+	color: #FFFFFF;
 }
 
 .contact {
-
+	background-color: #292929;
+	color: #FFFFFF;
 }
 
 .navlink {
@@ -114,12 +116,12 @@ p {
 	border-bottom: 10px solid #FFF;
 }
 
-.sheebo {
-	border-bottom: 10px solid #FCEFB6;
+.yellow {
+	border-bottom: 10px solid #f0dd71;
 }
 
-.navy {
-	border-bottom: 10px solid #536E80;
+.winered {
+	border-bottom: 10px solid #bd5259;
 }
 
 .circle {
@@ -156,6 +158,54 @@ p {
 .tright {
 	text-align: right;
 }
+
+/* images */
+.image {
+	display: inline-block;
+	width: 27%;
+	margin: 3% 3%;
+	background-position: center;
+	background-size: cover;
+	padding-bottom: 28%;
+	height: 0;
+}
+
+.image0 {
+	background-image: url("i/p0.png");
+}
+
+.image1 {
+	background-image: url("i/p1.png");
+}
+
+.image2 {
+	background-image: url("i/p2.png");
+}
+
+.image3 {
+	background-image: url("i/p3.png");
+}
+
+.image4 {
+	background-image: url("i/p4.png");
+}
+
+.image5 {
+	background-image: url("i/p5.png");
+}
+
+.image6 {
+	background-image: url("i/p6.png");
+}
+
+.image7 {
+	background-image: url("i/p7.png");
+}
+
+.image8 {
+	background-image: url("i/p8.png");
+}
+
 
 body {
 	margin: 0;
