@@ -28,7 +28,7 @@
 	z-index: 0;
 }
 
-.logo-bg {
+#logo-bg {
 	position: absolute;
 	width: 100%;
 	height: 100%;
@@ -40,25 +40,23 @@
 
 	background-image: url("sf.jpg");
 	background-size: 100%;
-
-	filter: blur(15px);
-		-webkit-filter: blur(15px);
-		-moz-filter: blur(15px);
-		-o-filter: blur(15px);
-		-ms-filter: blur(15px);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
 }
 
-.fade {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	top: 0;
-	left: 0;
+@media DISABLED {
+	.fade {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
 
-	z-index: 2; /* on top of bg */
-	background-color: #FFF;
-	opacity: 0.4;
-	filter: alpha(opacity=40); /* ie8 */
+		z-index: 2; /* on top of bg */
+		background-color: #FFF;
+		opacity: 0.4;
+		filter: alpha(opacity=40); /* ie8 */
+	}
 }
 
 .design {
@@ -74,7 +72,7 @@
 .navlink {
 	font-family: "Oswald", sans-serif;
 	text-decoration: none;
-	color: #555555;
+	color: #DDDDDD;
 	font-size: 24px;
 }
 
