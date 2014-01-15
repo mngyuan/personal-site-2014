@@ -1,9 +1,9 @@
 .center {
 	position: relative;
 	margin: 0 auto;
-	width: 50%;
+	width: 55%;
 	font-family: "Alegreya Sans";
-	padding: 25px 0;
+	padding: 60px 0;
 	z-index: 9;
 }
 
@@ -18,6 +18,14 @@
 
 .projects {
 	background-color: #f0dd71;
+}
+
+#bigk {
+	display: block;
+	width: 100%;
+	max-width: 400px;
+	margin: 0 auto;
+	padding-top: 25%;
 }
 
 .logo {
@@ -72,13 +80,14 @@
 .navlink {
 	font-family: "Oswald", sans-serif;
 	text-decoration: none;
-	color: #DDDDDD;
+	color: #FFFFFF;
 	font-size: 24px;
 }
 
 .nav {
 	text-align: center;
 	width: 100%;
+	padding-top: 25px;
 }
 
 h1 {
