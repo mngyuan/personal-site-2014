@@ -38,12 +38,12 @@ function parallaxScroll(dist) {
 }
 
 function updateNav(dist, navtop, abouttop, projecttop, designtop, contacttop) {
-	var navtop = $('nav').offset().top;
+	var navtop = $('#navspace').offset().top;
 	var abouttop = $('#about').offset().top;
 	var projecttop = $('#projects').offset().top;
 	var designtop = $('#design').offset().top;
 	var contacttop = $('#contact').offset().top;
-	
+
 	if (dist > navtop) {
 		var navoh = $('nav').addClass('sticky').outerHeight();
 		$('#navspace').height(navoh);
