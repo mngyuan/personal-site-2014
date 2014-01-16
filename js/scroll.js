@@ -1,17 +1,10 @@
 $( document ).ready(function() {
 	$(".fancybox").fancybox({'maxHeight':450});
 
-
-	var navtop = $('nav').offset().top;
-	var abouttop = $('#about').offset().top;
-	var projecttop = $('#projects').offset().top;
-	var designtop = $('#design').offset().top;
-	var contacttop = $('#contact').offset().top;
-
 	$(window).scroll(function() {
 		var dist = $(window).scrollTop();
 		parallaxScroll(dist);
-		updateNav(dist, navtop, abouttop, projecttop, designtop, contacttop);
+		updateNav(dist);
 	});
 
 	$('#abouta').click(function(event) {
@@ -45,6 +38,12 @@ function parallaxScroll(dist) {
 }
 
 function updateNav(dist, navtop, abouttop, projecttop, designtop, contacttop) {
+	var navtop = $('nav').offset().top;
+	var abouttop = $('#about').offset().top;
+	var projecttop = $('#projects').offset().top;
+	var designtop = $('#design').offset().top;
+	var contacttop = $('#contact').offset().top;
+	
 	if (dist > navtop) {
 		var navoh = $('nav').addClass('sticky').outerHeight();
 		$('#navspace').height(navoh);
