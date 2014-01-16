@@ -13,6 +13,31 @@ $( document ).ready(function() {
 		parallaxScroll(dist);
 		updateNav(dist, navtop, abouttop, projecttop, designtop, contacttop);
 	});
+
+	$('#abouta').click(function(event) {
+		event.preventDefault();
+
+		$('html, body').animate({
+			scrollTop: $("#about").offset().top
+		}, 600);
+	});
+
+	$('#projecta').click(function(event) {
+		event.preventDefault();
+
+		$('html, body').animate({
+			scrollTop: $("#projects").offset().top
+		}, 600);
+	});
+
+	$('#designa').click(function(event) {
+		event.preventDefault();
+
+		$('html, body').animate({
+			scrollTop: $("#design").offset().top
+		}, 600);
+	});
+
 });
 
 function parallaxScroll(dist) {
