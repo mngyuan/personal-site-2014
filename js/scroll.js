@@ -1,4 +1,7 @@
 $( document ).ready(function() {
+	$(".fancybox").fancybox({'maxHeight':450});
+
+
 	var navtop = $('nav').offset().top;
 	var abouttop = $('#about').offset().top;
 	var projecttop = $('#projects').offset().top;

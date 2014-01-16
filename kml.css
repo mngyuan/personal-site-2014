@@ -84,7 +84,7 @@ nav a {
 nav {
 	text-align: center;
 	width: 100%;
-	padding: 15px 0;
+	padding: 10px 0;
 }
 
 nav.sticky {
@@ -195,12 +195,15 @@ p {
 /* images */
 .image {
 	display: inline-block;
-	width: 27%;
+	width: 26%;
 	margin: 3% 3%;
 	background-position: center;
 	background-size: cover;
 	padding-bottom: 28%;
 	height: 0;
+
+	border: 3px solid white;
+	border-radius: 5px;
 }
 
 .image0 {
