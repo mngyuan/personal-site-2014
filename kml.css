@@ -253,6 +253,18 @@ p {
 .icon {
 	width: 17%;
 	margin: 2% 8%;
+	display: inline-block;
+	text-align: center;
+}
+
+.icon img {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.icon a {
+	color: white;
+
 }
 
 
