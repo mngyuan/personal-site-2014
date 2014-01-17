@@ -75,8 +75,17 @@ a:hover {
 	background-color: #f0dd71;
 }
 
+#projects a.tx {
+	font-weight: 800;
+	text-decoration: underline;
+}
+
+#projects a.tx:hover {
+	color: #F7922D;
+}
+
 #design {
-	background-color: #bd5259;
+	background-color: #3ca385;
 	color: #FFFFFF;
 }
 
@@ -176,8 +185,9 @@ p {
 	border-bottom: 10px solid #f0dd71;
 }
 
-.winered {
-	border-bottom: 10px solid #bd5259;
+.winegreen {
+	/* me, the color */
+	border-bottom: 10px solid #3ca385;
 }
 
 .circle {
