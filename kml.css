@@ -3,6 +3,12 @@ a {
 	color: #292929;
 }
 
+a:hover {
+	color: #F7922D;
+	transition: color 200ms linear;
+}
+
+
 .center {
 	position: relative;
 	margin: 0 auto;
@@ -79,6 +85,19 @@ a {
 	color: #FFFFFF;
 }
 
+#nameplate {
+	font-weight: 800;
+	font-size: 36px;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	color: #F7922D;
+}
+
+#credit {
+	font-size: 12px;
+	margin-top: 50px;
+}
+
 nav a {
 	font-family: "Oswald", sans-serif;
 	color: #FFFFFF;
@@ -88,7 +107,7 @@ nav a {
 nav {
 	text-align: center;
 	width: 100%;
-	padding: 10px 0;
+	padding-bottom: 10px;
 }
 
 nav.sticky {
@@ -176,6 +195,8 @@ p {
 		-khtml-user-select: none;
 		-moz-user-select: none;
 		-ms-user-select: none;
+
+	color: black;
 }
 
 .cwhite {
@@ -192,12 +213,21 @@ p {
 	margin-left: 10px;
 }
 
+/* Text modifiers */
+b {
+	font-weight: 800;
+}
+
 .tright {
 	text-align: right;
 }
 
 .tcenter {
 	text-align: center;
+}
+
+.tdark {
+	color: #292929;
 }
 
 /* images */
@@ -270,4 +300,5 @@ p {
 
 body {
 	margin: 0;
+	font-weight: 400;
 }
