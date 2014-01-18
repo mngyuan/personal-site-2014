@@ -39,6 +39,8 @@ a:hover {
 	overflow: hidden;
 	background-color: #536E80;
 	color: white;
+	/* don't extend too much */
+	max-height: 850px;
 }
 
 #logo-bg {
@@ -51,7 +53,7 @@ a:hover {
 	padding: 50px;
 
 	background-image: url("sf.jpg");
-	background-size: 100%;
+	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 }

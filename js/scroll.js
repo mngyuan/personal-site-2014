@@ -34,7 +34,7 @@ $( document ).ready(function() {
 });
 
 function parallaxScroll(dist) {
-	$('#logo-bg').css('background-position', '50% ' + (0-(dist*0.75))+'px');
+	$('#logo-bg').css('background-position', '50% ' + (0-(dist*0.25))+'px');
 }
 
 function updateNav(dist, navtop, abouttop, projecttop, designtop, contacttop) {
