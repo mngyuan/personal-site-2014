@@ -31,6 +31,13 @@ $( document ).ready(function() {
 		}, 600);
 	});
 
+
+	// resizing
+	$(window).resize(function() {
+		vertCenterMePic();
+	});
+	// make sure we resize on load too
+	vertCenterMePic();
 });
 
 function parallaxScroll(dist) {
@@ -53,7 +60,6 @@ function updateNav(dist, navtop, abouttop, projecttop, designtop, contacttop) {
 	}
 
 	var stickyHeight = $('nav').outerHeight();
-	console.log(stickyHeight);
 
 	if ((dist + stickyHeight) > contacttop) {
 		$('nav a').removeClass('active');
@@ -70,4 +76,10 @@ function updateNav(dist, navtop, abouttop, projecttop, designtop, contacttop) {
 	} else if ((dist + stickyHeight) < abouttop) {
 		$('nav a').removeClass('active');
 	}
+}
+
+function vertCenterMePic() {
+	var newHeight = $('#me').parent('.center').height();
+	$('#me').height(newHeight);
+	$('#metxt').height(newHeight);
 }
