@@ -246,6 +246,7 @@ hr.dark {
 	margin-right: 5%;
 	width: 40%;
 
+	/* vertically center image and right align */
 	/* Internet Explorer 10 */
 	display:-ms-flexbox;
 	-ms-flex-pack:center;
@@ -253,16 +254,16 @@ hr.dark {
 
 	/* Firefox */
 	display:-moz-box;
-	-moz-box-pack:center;
+	-moz-box-pack:end;
 	-moz-box-align:center;
 
 	/* Safari, Chrome, and Opera */
 	display:-webkit-box;
-	-webkit-box-pack:center;
+	-webkit-box-pack:end;
 	-webkit-box-align:center;
 
 	display: box;
-	box-pack: center;
+	box-pack: end;
 	box-align: center;
 }
 
