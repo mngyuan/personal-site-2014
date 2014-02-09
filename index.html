@@ -1,120 +1,105 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Kevin M. Lee</title>
-  <link rel="stylesheet" href="kml.css">
-  <link rel="stylesheet" href="jquery.fancybox.css">
+---
+layout: default
+title: Home
+---
+<script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
+<script type="text/javascript" src="js/scroll.js"></script>
 
-  <link rel="shortcut icon" href="kml.ico">
-
-  <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
-
-  <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans:400,400italic,800' rel='stylesheet' type='text/css'>
-
-  <script src="js/jquery-1.10.2.min.js"></script>
-  <script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
-  <script type="text/javascript" src="js/scroll.js"></script>
-
-  <base target="_blank">
-</head>
-<body>
-  <div id="logo">
-    <div id="logo-bg"></div>
-    <div class="center">
-      <div class="center nopad tcenter">
-        <img src="i/kml.png" id="bigk">
-        <div id="nameplate">kevin m. lee</div>
-      </div>
-      <div id="navspace"></div>
-      <nav>
-        <ul>
-          <li><a id="abouta" href="#about">about</a></li>
-          <li><a id="projecta" href="#projects">projects</a></li>
-          <li><a id="designa" href="#design">design</a></li>
-          <li><a id="resumea" href="Kevin Lee resume.pdf" target="_blank">resume</a></li>
-        </ul>
-
-      </nav>
+<div id="logo">
+  <div id="logo-bg"></div>
+  <div class="center">
+    <div class="center nopad tcenter">
+      <img src="i/kml.png" id="bigk">
+      <div id="nameplate">kevin m. lee</div>
     </div>
-  </div>
+    <div id="navspace"></div>
+    <nav>
+      <ul>
+        <li><a id="abouta" href="#about">about</a></li>
+        <li><a id="projecta" href="#projects">projects</a></li>
+        <li><a id="designa" href="#design">design</a></li>
+        <li><a id="resumea" href="Kevin Lee resume.pdf" target="_blank">resume</a></li>
+      </ul>
 
-  <div class="arrow-up orange"></div>
-  <div id="about">
-    <div class="center">
-      <div id="me">
-        <img src="i/ME2.png" width="100%">
-      </div>
-      <div id="metxt">
-        <div>
-          <h1>I'm a maker.</h1>
-          <p>Making, building, breaking - these are my bread and butter. Whether it's music I'm recording, software I'm building, or physical stuff I'm making, for me there is no greater pleasure than creating and learning new things. I'm 19, a CompSci major at UC Berkeley, and I know there's always space in life to keep learning. <b class="emphasis">Welcome to my website.</b>
-          </p>
-        </div>
-      </div>
+    </nav>
+  </div>
+</div>
+
+<div class="arrow-up orange"></div>
+<div id="about">
+  <div class="center">
+    <div id="me">
+      <img src="i/ME2.png" width="100%">
     </div>
-  </div>
-
-
-  <div class="arrow-up yellow"></div>
-  <div id="projects">
-    <div class="center">
-      <h1>Projects/WIP</h1>
-      <p>A collection of my projects, personal and school- or work-related. Professionally, I'm passionate about <b class="emphasis">game programming and design, software QA, and development,</b> of websites, apps, or other products that affect <b class="emphasis">everyday life.</b></p>
-      <hr class="dark"><br><br><br>
+    <div id="metxt">
       <div>
-        <a href="http://howmanygiven.herokuapp.com">
-          <div class="circle left">h</div>
-          <h2>kml/howmanygiven</h2>
-        </a>
-        <p>Made with a buddy partially for BearHack 2013, this website is an expansion of an idea from a project we had in a class. It analyzes the plaintext content of a website and spits out a "sentiment level", among other things.</p>
-      </div>
-      <div>
-        <a href="http://rnd.berkeley.edu">
-          <div class="circle right">r</div>
-          <h2 class="tright">berkeley/rnd</h2>
-        </a>
-        <p>A website collaboratively built for a club that friends and I started. We post personal project ideas and invite other students to organize groups of students to make those projects.</p>
-      </div>
-      <div>
-        <div class="circle left">v</div>
-        <h2>kml/vypyr</h2>
-        <p>A collection of guitar pedal and audio mods I'm in the process of making. Currently I'm making two <a class="tx" href="http://www.electrosmash.com/pedalshield">pedalShields</a> and coding a compression effect for them, a wavetable Arduino Due synth, and a simple custom stompbox for my Peavy Vypyr 15W guitar amp. This should all be done, with sound demos, early to mid February.</p>
-      </div>
-      <div>
-        <br><br>
-        <p>You can find more of my in-progess personal projects on my <a class="tx" href="http://github.com/agoraphobiae">github.</a> There's a <a class="tx" href="http://github.com/agoraphobiae/pork">text-adventure game</a> in Python, a <a class="tx" href="Blessing-of-Light">helper utility for Binding of Isaac</a>, a <a class="tx" href="http://github.com/agoraphobiae/coursescrape">web scraper for Berkeley courses</a>, and <a class="tx" href="http://github.com/agoraphobiae/AngelGame">half of a game</a> I made with friends. I've made a few things and I'm looking to make more.</p>
+        <h1>I'm a maker.</h1>
+        <p>Making, building, breaking - these are my bread and butter. Whether it's music I'm recording, software I'm building, or physical stuff I'm making, for me there is no greater pleasure than creating and learning new things. I'm 19, a CompSci major at UC Berkeley, and I know there's always space in life to keep learning. <b class="emphasis">Welcome to my website.</b>
+        </p>
       </div>
     </div>
   </div>
+</div>
 
-  <div class="arrow-up winegreen"></div>
-  <div id="design">
-    <div class="center">
-      <h1>Design</h1>
-      <p>I like to make pretty things sometimes and I've made a few designs I'm quite proud of, some of it as part of <b class="emphasis twhite">Innovative Design</b> at Berkeley, some for me, and some for friends. I'm professionally interested in spreading <b class="emphasis twhite">good design and user experiences.</b></p>
-      <a class="fancybox" rel="group" href="i/p0.png" title="A logo done as part of my work for Innovative Design at Berkeley."><div class="image image0"></div></a>
-      <a class="fancybox" rel="group" href="i/p1.png" title="A facebook cover with a logo I made for a musical friend."><div class="image image1"></div></a>
-      <a class="fancybox" rel="group" href="i/p2.png" title="Taken from Twin Peaks in San Francisco on my Canon 60D"><div class="image image2"></div></a>
-      <a class="fancybox" rel="group" href="i/p3.png" title="A mock album cover"><div class="image image3"></div></a>
-      <a class="fancybox" rel="group" href="i/p4.png" title="A photo of UC Berkeley and the Bay Area"><div class="image image4"></div></a>
-      <a class="fancybox" rel="group" href="i/p5.png" title="The logo for Berkeley Research and Development, a club some friends and I started. The site, which I manage, can be found at rnd.berkeley.edu"><div class="image image5"></div></a>
-      <a class="fancybox" rel="group" href="i/p6.png" title="Some variations of squegees as part of a logo redesign"><div class="image image6"></div></a>
-      <a class="fancybox" rel="group" href="i/p7.png" title="My Epi Les Paul"><div class="image image7"></div></a>
-      <a class="fancybox" rel="group" href="i/p8.png" title="Lyrics overlaid on a picture from tumblr"><div class="image image8"></div></a>
-      <p class="tcenter">More of my work can be found in my <a href="Kevin Lee portfolio sampler.pdf">portfolio sampler</a></p>
+
+<div class="arrow-up yellow"></div>
+<div id="projects">
+  <div class="center">
+    <h1>Projects/WIP</h1>
+    <p>A collection of my projects, personal and school- or work-related. Professionally, I'm passionate about <b class="emphasis">game programming and design, software QA, and development,</b> of websites, apps, or other products that affect <b class="emphasis">everyday life.</b></p>
+    <hr class="dark"><br><br><br>
+    <div>
+      <a href="http://howmanygiven.herokuapp.com">
+        <div class="circle left">h</div>
+        <h2>kml/howmanygiven</h2>
+      </a>
+      <p>Made with a buddy partially for BearHack 2013, this website is an expansion of an idea from a project we had in a class. It analyzes the plaintext content of a website and spits out a "sentiment level", among other things.</p>
+    </div>
+    <div>
+      <a href="http://rnd.berkeley.edu">
+        <div class="circle right">r</div>
+        <h2 class="tright">berkeley/rnd</h2>
+      </a>
+      <p>A website collaboratively built for a club that friends and I started. We post personal project ideas and invite other students to organize groups of students to make those projects.</p>
+    </div>
+    <div>
+      <div class="circle left">v</div>
+      <h2>kml/vypyr</h2>
+      <p>A collection of guitar pedal and audio mods I'm in the process of making. Currently I'm making two <a class="tx" href="http://www.electrosmash.com/pedalshield">pedalShields</a> and coding a compression effect for them, a wavetable Arduino Due synth, and a simple custom stompbox for my Peavy Vypyr 15W guitar amp. This should all be done, with sound demos, early to mid February.</p>
+    </div>
+    <div>
+      <br><br>
+      <p>You can find more of my in-progess personal projects on my <a class="tx" href="http://github.com/agoraphobiae">github.</a> There's a <a class="tx" href="http://github.com/agoraphobiae/pork">text-adventure game</a> in Python, a <a class="tx" href="Blessing-of-Light">helper utility for Binding of Isaac</a>, a <a class="tx" href="http://github.com/agoraphobiae/coursescrape">web scraper for Berkeley courses</a>, and <a class="tx" href="http://github.com/agoraphobiae/AngelGame">half of a game</a> I made with friends. I've made a few things and I'm looking to make more.</p>
     </div>
   </div>
+</div>
 
-
-  <div id="contact">
-    <div class="center bottom">
-      <h1>Contact me</h1>
-      <p>At some point I'll move my blog to this site. Until then, you're welcome to say hi - I'm usually best reached through email. Feel free to grab a copy of my resume or the portfolio sampler to go.</p>
-      <div class="icon"><a href="http://www.linkedin.com/in/kevinmleex/"><img src="i/linkedin.png"></img>LinkedIn</a></div>
-      <div class="icon"><a href="mailto:kevinmlee.x@gmail.com"><img src="i/mail.png"></img>Email</a></div>
-      <div class="icon"><a href="Kevin Lee resume.pdf"><img class="icon" src="i/resume.png"></img>Resume</a></div>
-      <div id="credit">Designed and coded by Kevin M. Lee. Design, logo, code, and photo of the Golden Gate &copy; Kevin M. Lee 2014.</div>
-    </div>
+<div class="arrow-up winegreen"></div>
+<div id="design">
+  <div class="center">
+    <h1>Design</h1>
+    <p>I like to make pretty things sometimes and I've made a few designs I'm quite proud of, some of it as part of <b class="emphasis twhite">Innovative Design</b> at Berkeley, some for me, and some for friends. I'm professionally interested in spreading <b class="emphasis twhite">good design and user experiences.</b></p>
+    <a class="fancybox" rel="group" href="i/p0.png" title="A logo done as part of my work for Innovative Design at Berkeley."><div class="image image0"></div></a>
+    <a class="fancybox" rel="group" href="i/p1.png" title="A facebook cover with a logo I made for a musical friend."><div class="image image1"></div></a>
+    <a class="fancybox" rel="group" href="i/p2.png" title="Taken from Twin Peaks in San Francisco on my Canon 60D"><div class="image image2"></div></a>
+    <a class="fancybox" rel="group" href="i/p3.png" title="A mock album cover"><div class="image image3"></div></a>
+    <a class="fancybox" rel="group" href="i/p4.png" title="A photo of UC Berkeley and the Bay Area"><div class="image image4"></div></a>
+    <a class="fancybox" rel="group" href="i/p5.png" title="The logo for Berkeley Research and Development, a club some friends and I started. The site, which I manage, can be found at rnd.berkeley.edu"><div class="image image5"></div></a>
+    <a class="fancybox" rel="group" href="i/p6.png" title="Some variations of squegees as part of a logo redesign"><div class="image image6"></div></a>
+    <a class="fancybox" rel="group" href="i/p7.png" title="My Epi Les Paul"><div class="image image7"></div></a>
+    <a class="fancybox" rel="group" href="i/p8.png" title="Lyrics overlaid on a picture from tumblr"><div class="image image8"></div></a>
+    <p class="tcenter">More of my work can be found in my <a href="Kevin Lee portfolio sampler.pdf">portfolio sampler</a></p>
   </div>
-</body>
-</html>
+</div>
+
+
+<div id="contact">
+  <div class="center bottom">
+    <h1>Contact me</h1>
+    <p>At some point I'll move my blog to this site. Until then, you're welcome to say hi - I'm usually best reached through email. Feel free to grab a copy of my resume or the portfolio sampler to go.</p>
+    <div class="icon"><a href="http://www.linkedin.com/in/kevinmleex/"><img src="i/linkedin.png"></img>LinkedIn</a></div>
+    <div class="icon"><a href="mailto:kevinmlee.x@gmail.com"><img src="i/mail.png"></img>Email</a></div>
+    <div class="icon"><a href="Kevin Lee resume.pdf"><img class="icon" src="i/resume.png"></img>Resume</a></div>
+    <div id="credit">Designed and coded by Kevin M. Lee. Design, logo, code, and photo of the Golden Gate &copy; Kevin M. Lee 2014.</div>
+  </div>
+</div>
