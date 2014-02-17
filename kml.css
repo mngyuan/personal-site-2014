@@ -415,7 +415,7 @@ body {
 #blogcontent {
 	margin-left: 25%;
 	overflow-y: auto;
-	background-color: #f2f2f2;
+	background-color: white;
 }
 
 #blog_sidebar a {
