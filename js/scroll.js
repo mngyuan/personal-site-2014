@@ -1,3 +1,4 @@
+// consider jquery waypoint js
 $( document ).ready(function() {
 	$(".fancybox").fancybox({'maxHeight':450});
 
