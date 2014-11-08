@@ -8,6 +8,14 @@ a:hover {
 	transition: color 200ms linear;
 }
 
+.fancybox-title-float-wrap .child a {
+	color: white;
+}
+.fancybox-title-float-wrap .child a:hover {
+	color: #F7922D;
+	transition: color 200ms linear;
+}
+
 
 .center {
 	position: relative;
