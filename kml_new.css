@@ -1,8 +1,66 @@
+@mixin vert-align {	
+}
+
 body {
 	margin: 0;
 	height: 100%;
 	width: 100%;
 
-	font-family: "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
-	background-color: #333;
+	/*font-family: "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;*/
+	font-family: "PT Mono";
+	background-color: #191919;
+}
+
+#card {
+	margin: 0 auto;
+	margin-top: 100px;
+	width: 500px;
+	height: 225px;
+	padding: 10px 30px;
+
+	background: #252525;
+	color: #444;
+
+	/* for vert align */
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+
+#card-logo {
+	/* vert align */
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+
+	float: left;
+	width: 150px;
+}
+
+#card-logo img {
+	padding: 10px;
+
+	width: 130px;
+	height: 130px;
+}
+
+#card-logo img:hover {
+	content: url("i/kl_color.png");
+}
+
+#card-text {
+	/* vert align */
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+
+	float: left;
+	padding: 20px;
+	width: 310px;
+
+	font-size: 0.9em;
 }
