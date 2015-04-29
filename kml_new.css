@@ -9,14 +9,14 @@ body {
 	/*font-family: "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;*/
 	font-family: "PT Mono";
 	background-color: #191919;
+	perspective: 800px;
 }
 
 #card {
 	margin: 0 auto;
-	margin-top: 100px;
-	width: 500px;
-	height: 225px;
-	padding: 10px 30px;
+	margin-top: 200px;
+	width: 560px;
+	height: 270px;
 
 	background: #252525;
 	color: #444;
@@ -25,6 +25,29 @@ body {
 	-webkit-transform-style: preserve-3d;
 	-moz-transform-style: preserve-3d;
 	transform-style: preserve-3d;
+
+	backface-visibility: hidden;
+	transform-style: preserve-3d;
+	transition: transform 1s;
+	
+	position: relative;
+}
+.front {
+	width: 500px;
+	height: 250px;
+	padding: 10px 30px;
+	position: absolute;
+}
+.back {
+	transform: rotateY(180deg) scale(1.5);
+	background: blue;
+	position: absolute;
+	width: 500px;
+	height: 100%;
+	backface-visibility: hidden;
+}
+.flipped {
+	transform: rotateY(180deg);
 }
 
 #card-logo {
